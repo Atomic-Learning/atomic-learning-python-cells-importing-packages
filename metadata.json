@@ -1,21 +1,17 @@
 {
-    "title": "",
-    "slug": "",
+    "title": "Atomic Learning: Importing Packages in Python Cells",
+    "slug": "atomic-learning-python-cells-importing-packages",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "atomic-learning",
+        "python"
     ],
     "duration": 0,
     "prerequisites": [
-        "",
-        ""
+        "atomic-learning-creating-python-cells"
     ],
     "related": [
-        "",
-        ""
     ]
 }
