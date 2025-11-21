@@ -8,7 +8,7 @@
         "atomic-learning",
         "python"
     ],
-    "duration": 0,
+    "duration": 5,
     "prerequisites": [
         "atomic-learning-creating-python-cells"
     ],
