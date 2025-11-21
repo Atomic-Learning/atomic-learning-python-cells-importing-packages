@@ -13,5 +13,8 @@
         "atomic-learning-creating-python-cells"
     ],
     "related": [
+    ],
+    "python_packages": [
+        "numpy"
     ]
 }
