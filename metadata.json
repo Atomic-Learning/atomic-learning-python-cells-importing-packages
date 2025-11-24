@@ -10,9 +10,13 @@
     ],
     "duration": 5,
     "prerequisites": [
-        "atomic-learning-creating-python-cells"
+        "atomic-learning-creating-python-cells",
+        "python-python-standard-library",
+        "python-packages-introduction"
     ],
     "related": [
+        "python-numpy-introduction",
+        "python-pandas-introduction"
     ],
     "python_packages": [
         "numpy",
