@@ -15,6 +15,7 @@
     "related": [
     ],
     "python_packages": [
-        "numpy"
+        "numpy",
+        "pandas"
     ]
 }

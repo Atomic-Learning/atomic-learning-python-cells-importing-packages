@@ -8,4 +8,20 @@ print(math.sqrt(16))</py-cell>
 
 <h2>Packages from Outside the Standard Library</h2>
 
-<py-cell>import numpy as np</py-cell>
+Packages that are not part of the Python Standard Library need to be specified in the metadata of the content item to be available for use in Python cells. This is done by listing the package names under the "python_packages" key in the metadata file. For instance, in the metadata of this content item, the packages <code>numpy</code> and <code>pandas</code> are listed. The end of the metadata file looks like this:
+
+<pre><code language="json">
+    ...
+    "python_packages": [
+        "numpy",
+        "pandas"
+    ]
+}
+</code></pre>
+
+You can see the full metadata file <a href="https://github.com/Atomic-Learning/atomic-learning-python-cells-importing-packages/blob/main/metadata.json">here</a>. This allows for the packages to imported and used directly in the Python cells, as shown below:
+
+<py-cell>import numpy as np
+array = np.array([1, 2, 3, 4, 5])
+print("Numpy array:", array)
+</py-cell>
