@@ -10,15 +10,14 @@ print(math.sqrt(16))</py-cell>
 
 Packages that are not part of the Python Standard Library need to be specified in the metadata of the content item to be available for use in Python cells. This is done by listing the package names under the "python_packages" key in the metadata file. For instance, in the metadata of this content item, the packages <code>numpy</code> and <code>pandas</code> are listed. The end of the metadata file looks like this:
 
-<pre><code language="json">...
+<pre><code language="json">⋮
     "python_packages": [
         "numpy",
         "pandas"
     ]
-}
-</code></pre>
+}</code></pre>
 
-You can see the full metadata file <a href="https://github.com/Atomic-Learning/atomic-learning-python-cells-importing-packages/blob/main/metadata.json">here</a>. This allows for the packages to imported and used directly in the Python cells, as shown below:
+You can see the full metadata file <a href="https://github.com/Atomic-Learning/atomic-learning-python-cells-importing-packages/blob/main/metadata.json" target="_blank" rel="noopener noreferrer">here</a>. This allows for the packages to imported and used directly in the Python cells, as shown below:
 
 <py-cell>import numpy as np
 array = np.array([1, 2, 3, 4, 5])
