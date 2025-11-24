@@ -16,7 +16,8 @@
     ],
     "related": [
         "python-numpy-introduction",
-        "python-pandas-introduction"
+        "python-pandas-introduction",
+        "python-math-module"
     ],
     "python_packages": [
         "numpy",
