@@ -10,7 +10,7 @@
     ],
     "duration": 5,
     "prerequisites": [
-        "python-python-standard-library",
+        "python-standard-library",
         "python-packages-introduction",
         "atomic-learning-creating-python-cells",
         "atomic-learning-metadata-file"
